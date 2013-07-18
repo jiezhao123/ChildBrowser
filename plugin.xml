@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.childbrowserJie"
+    id="com.phonegap.plugins.childbrowser12"
     version="5.0">
 
     <name>Child Browser</name>
@@ -11,7 +11,7 @@
         along with the ability to easily return to the application.
     </description>
 
-    <license>MIT</license>
+    <license></license>
 
     <engines>
         <engine name="cordova" version=">=2.0.0" />
