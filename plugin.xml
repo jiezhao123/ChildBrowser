@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.phonegap.plugins.childbrowser12"
+    id="com.phonegap.plugins.childbrowserLackPara"
     version="5.0">
 
     <name>Child Browser</name>
@@ -11,7 +11,7 @@
         along with the ability to easily return to the application.
     </description>
 
-    <license></license>
+    <license>MIT</license>
 
     <engines>
         <engine name="cordova" version=">=2.0.0" />
@@ -32,8 +32,6 @@
 
         <!-- Cordova 1.5 - 1.9 -->
         <config-file target="res/xml/plugins.xml" parent="/plugins">
-            <plugin name="ChildBrowser"
-                value="com.phonegap.plugins.childBrowser.ChildBrowser"/>
         </config-file>
 
         <!-- Cordova >= 2.0.0 -->
@@ -53,9 +51,6 @@
         <config-file target="config.xml" parent="plugins">
             <plugin name="ChildBrowser" value="ChildBrowserCommand"/>
         </config-file>
-
-        <resource-file src="src/ios/ChildBrowser.bundle" />
-        <resource-file src="src/ios/ChildBrowserViewController.xib" />
 
         <header-file src="src/ios/ChildBrowserCommand.h" />
         <header-file src="src/ios/ChildBrowserViewController.h" />
